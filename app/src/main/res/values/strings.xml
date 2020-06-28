@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Demo</string>
+    <string name="a">我是a</string>
+    <string name="a1">微信</string>
+    <string name="a2">QQ</string>
+    <string name="a3">短信</string>
+    <string name="a4">视频</string>
+    <string name="a5">微博</string>
+    <string name="a6">电话</string>
+    <string name="a7">音乐</string>
+    <string name="a8">小猫</string>
+    <string name="a9">贴吧</string>
+
+</resources>

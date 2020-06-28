@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="arr">
+        <item>一个</item>
+        <item>两个</item>
+        <item>三个</item>
+    </string-array>
+
+</resources>

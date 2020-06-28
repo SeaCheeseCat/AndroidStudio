@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".duo"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/xiaoxi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="第一条信息" />
+
+    <Button
+        android:id="@+id/xia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="下一条" />
+
+    <ProgressBar
+        android:id="@+id/time"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:max="60"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        ></ProgressBar>
+</LinearLayout>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".xml">
+
+
+    <ImageView
+        android:id="@+id/icon1"
+        android:layout_width="93dp"
+        android:layout_height="122dp"
+        android:layout_alignBottom="@+id/city"
+        android:layout_marginBottom="-144dp"
+        android:src="@mipmap/a" />
+    <TextView
+        android:id="@+id/tianqi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/icon1"
+        android:text="多云"
+        ></TextView>
+
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+        android:layout_marginTop="580dp"
+            >
+        <Button
+            android:id="@+id/shanghai"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="上海" />
+
+        <Button
+            android:id="@+id/guangdong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="广东" />
+
+        <Button
+            android:id="@+id/beijing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="北京" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/city2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="39dp"
+        android:text="上海"
+        android:textSize="50sp"
+        />
+
+    <TextView
+        android:id="@+id/wnedu"
+        android:layout_width="60dp"
+        android:layout_height="38dp"
+        android:layout_alignBottom="@+id/city2"
+        android:layout_marginLeft="24dp"
+        android:layout_marginBottom="-64dp"
+        android:layout_toRightOf="@+id/icon1"
+        android:text="-7℃"></TextView>
+
+    <TextView
+        android:id="@+id/temp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/city2"
+        android:layout_marginLeft="19dp"
+        android:layout_marginBottom="-99dp"
+        android:layout_toRightOf="@+id/icon1"
+        android:text="风力3级"></TextView>
+
+</RelativeLayout>

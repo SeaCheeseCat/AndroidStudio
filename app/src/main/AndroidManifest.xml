@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.demo">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".cehua"></activity>
+        <activity android:name=".Alertdialog" />
+        <activity android:name=".tu2" />
+        <activity android:name=".http" />
+        <activity android:name=".donghua" />
+        <activity android:name=".hua" />
+        <activity android:name=".two" />
+
+        <service
+            android:name=".caipiaoservise"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity android:name=".caipiao" />
+
+        <service
+            android:name=".MyService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity android:name=".services" />
+        <activity android:name=".lunbotu" />
+        <activity android:name=".duo" />
+        <activity android:name=".jishi" />
+        <activity android:name=".qq2" />
+        <activity android:name=".winds" />
+        <activity android:name=".shoushi" />
+        <activity android:name=".longan" />
+        <activity android:name=".xml" />
+        <activity android:name=".show" />
+        <activity android:name=".shop" />
+        <activity android:name=".jisuanqi" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".wexindemo" />
+        <activity android:name=".QQ" />
+        <activity android:name=".intent1" />
+        <activity android:name=".intent2">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

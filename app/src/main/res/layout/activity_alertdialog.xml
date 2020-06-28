@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Alertdialog"
+    android:orientation="vertical"
+    >
+
+    <Button
+        android:id="@+id/dui1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="显示带取消，确定的对话框" />
+
+    <Button
+        android:id="@+id/dui2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="显示带列表的对话框" />
+
+    <Button
+        android:id="@+id/tongzhi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="显示通知" />
+
+    <Button
+        android:id="@+id/dui4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="显示带多选列表的" />
+</LinearLayout>
